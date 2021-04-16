@@ -1,6 +1,6 @@
       * ===============================================================         
       * The user invokes this transaction (called MB01) via:                    
-      *   MB01 <VERB>   MTH Demo                                            
+      *   MB01 <VERB>             t                                             
       *                                                                         
       * Where:                                                                  
       *   <VERB> = CRE|UPD|DEL                                                  
@@ -243,7 +243,7 @@
                      WS-INPUT-TRAILER                                           
             END-UNSTRING.                                                       
       * ===============================================================         
-      * Set indicator if verb is invalid                   
+      * Set indicator if verb is invalid                                        
       * ===============================================================         
        VERIFY-VERB.                                                             
       *                                                                         
